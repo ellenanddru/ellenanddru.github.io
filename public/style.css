@@ -1,0 +1,78 @@
+body {
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-size: 80px;
+	font-family: 'Dancing Script', sans-serif;
+	text-align: center;
+	text-shadow: -2px 1px black;
+	text-transform: lowercase;
+	margin: 40px auto 0px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+a {
+	color: gray;
+	font-weight: bold;
+	text-decoration: none;
+
+	/*for fade effect on hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+p a:hover {
+	color: #efebf7;
+	text-decoration: underline;
+}
+
+.nav-large {
+	/*background-color: #0E0E0E;*/
+	background-image: linear-gradient(to top, #0e0e0e00 0%, #0E0E0E 100%);
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 25px;
+	position: sticky;
+	/*top: 0;*/
+	/*overflow: hidden;*/
+}
+
+.nav-link {
+	display: inline-block;
+	margin: 0 1em;
+	letter-spacing: .1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+.intro-section {
+	background-image: url("images/title-image.jpg");
+	background-size: 100%;
+	color: white;
+	text-align: center;
+	min-height: 650px;
+	top: 0;
+}
+
+.intro-section h3 {
+	display: inline-block;
+	text-shadow: -1px 1px black;
+	margin: 15px;
+}
+
+.section {
+	padding: 60px 120px 0px;
+}

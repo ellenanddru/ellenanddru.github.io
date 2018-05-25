@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$('.intro-section').parallax({imageSrc: '../public/images/title-image.jpg'});
+	$('.intro-section').parallax({imageSrc: 'images/title-image.jpg'});
 });

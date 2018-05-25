@@ -158,6 +158,14 @@ p {
 	width: 65%;
 }
 
+.section-divider {
+	text-align: center;
+}
+
+.section-divider img {
+	width: 30%;
+}
+
 #our-wedding {
 	background-image: url("images/toms-town-crop.jpg");
 	background-size: 60%;

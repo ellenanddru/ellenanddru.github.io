@@ -91,6 +91,10 @@ p {
 	position: fixed;
 }
 
+.nav-spacer {
+	height: 120px;
+}
+
 .dropdown {
 	display: inline-block;
 }
@@ -151,7 +155,7 @@ p {
 }
 
 .section {
-	padding: 0px 120px 60px;
+	padding: 30px 120px 30px;
 }
 
 .content {
@@ -175,8 +179,8 @@ p {
 }
 
 #details-container {
-	padding-top: 120px;
-	top: 0;
+	/*padding-top: 120px;*/
+	top: 40px;
 }
 
 footer {

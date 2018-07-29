@@ -7,6 +7,7 @@ h1 {
   color: white;
   font-size: 80px;
   font-family: 'Dancing Script', sans-serif;
+  letter-spacing: -.2px;
   text-align: center;
   text-shadow: -2px 1px black;
   text-transform: lowercase;

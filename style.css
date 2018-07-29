@@ -1,223 +1,219 @@
 body {
-	background-color: white;
-	font-family: 'Montserrat', sans-serif;
-	margin: 0px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
-
 h1 {
-	color: white;
-	font-size: 80px;
-	font-family: 'Dancing Script', sans-serif;
-	text-align: center;
-	text-shadow: -2px 1px black;
-	text-transform: lowercase;
-	margin: 40px auto 0px;
+  color: white;
+  font-size: 80px;
+  font-family: 'Dancing Script', sans-serif;
+  text-align: center;
+  text-shadow: -2px 1px black;
+  text-transform: lowercase;
+  margin: 40px auto 0px;
 }
-
 h2 {
-	font-size: 32px;
-	text-transform: uppercase;
+  font-size: 32px;
 }
-
 h3 {
-	font-size: 24px;
-	margin-bottom: 0px;
+  font-size: 24px;
+  margin-bottom: 0px;
 }
-
 h4 {
-	font-size: 20px;
-	margin-bottom: 0px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+@media (max-width: 650px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+  }
+  h4 {
+    font-size: 18px;
+  }
 }
 
 a {
-	color: #720123;
-	font-weight: bolder;
-	text-decoration: none;
-
-	/*for fade effect on hover*/
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-	transition:.5s;
+  color: #720123;
+  font-weight: bolder;
+  text-decoration: none;
 }
-
 p a:hover {
-	/*color: #efebf7;*/
-	text-decoration: underline;
+  border-bottom: 1px solid #7201238a;
 }
-
 p {
-	font-size: 16px;
-	line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 22px 0px;
 }
 
 .nav-large {
-	width: 100%;
-	text-align: center;
-	box-sizing: border-box;
-	padding: 20px;
-	/*position: sticky;*/
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  /*position: sticky;*/
 }
-
 .nav-main {
-	height: 60px;
+  height: 60px;
 }
-
 .nav-link {
-	color: gray;
-	display: inline-block;
-	margin: 0 1em;
-	letter-spacing: .1em;
-	text-decoration: none;
-	text-shadow: 2px 0 10px black;
-	text-transform: uppercase;
-	vertical-align: center;
-}
+  color: gray;
+  display: inline-block;
+  margin: 0 1em;
+  letter-spacing: .1em;
+  text-decoration: none;
+  text-shadow: 2px 0 10px black;
+  text-transform: uppercase;
+  vertical-align: center;
 
+  /*for fade effect on hover*/
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
 .nav-link:hover {
-	color: white;
+  color: white;
 }
-
 .nav-dark {
-	background-color: #0E0E0E;
-	background-image: url("images/bg.jpg");
-	background: radial-gradient(rgba(0, 0, 0, 0.8),
+  background-color: #0E0E0E;
+  background-image: url("images/bg.jpg");
+  background: radial-gradient(rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.3)), url("images/bg.jpg");
-	/*background-size: 100%;*/
-	/*background-repeat: no-repeat;*/
-	box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
-	position: fixed;
+  /*background-size: 100%;*/
+  /*background-repeat: no-repeat;*/
+  box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
+  position: fixed;
 }
-
 .nav-spacer {
-	height: 120px;
+  height: 120px;
 }
-
 .dropdown {
-	display: inline-block;
+  display: inline-block;
 }
-
 .dropdown-content {
-	display: none;
-	position: absolute;
-	z-index: 1;
+  display: none;
+  position: absolute;
+  z-index: 1;
 }
-
 .dropdown-content a {
-	color: white;
-	margin: 0px;
-	padding: 6px 10px;
-	text-decoration: none;
-	text-transform: lowercase;
-	text-align: left;
+  color: white;
+  margin: 0px;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-align: left;
 }
-
 .nav-main .dropdown-content a {
-	display: inline-block;
+  display: inline-block;
 }
-
 .nav-dark .dropdown-content a {
-	display: block;
-	background-color: #0E0E0E;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  display: block;
+  background-color: #0E0E0E;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
-
 .dropdown:hover .dropdown-content {
-	display: block;
+  display: block;
 }
-
 .home-link {
-	color: white;
-	font-size: 40px;
-	font-family: 'Dancing Script', sans-serif;
-	text-align: center;
-	text-shadow: 2px 0 10px black;
-	text-transform: lowercase;
-	padding-bottom: 15px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Dancing Script', sans-serif;
+  text-align: center;
+  text-shadow: 2px 0 10px black;
+  text-transform: lowercase;
+  padding-bottom: 15px;
 }
 
 .intro-section {
-	/*background-image: url("images/title-image.jpg");*/
-	background: linear-gradient(to top, #0E0E0E00 40%, #0E0E0E 100%);
-	background-size: 100%;
-	color: white;
-	text-align: center;
-	min-height: 650px;
-	top: 0;
+  /*background-image: url("images/title-image.jpg");*/
+  background: linear-gradient(to top, #0E0E0E00 40%, #0E0E0E 100%);
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  min-height: 650px;
+  top: 0;
 }
-
 .intro-section h3 {
-	display: inline-block;
-	text-shadow: -1px 1px black;
-	margin: 15px;
+  display: inline-block;
+  text-shadow: -1px 1px black;
+  margin: 15px;
 }
 
 /*@media (min-width: 701px) {
-	.section {
-		padding: 30px 120px 30px;
-	}
+  .section {
+    padding: 30px 120px 30px;
+  }
 }*/
 
 .section {
-	padding: 30px 120px;
+  padding: 30px 120px;
 }
-
-@media (max-width: 580px) {
-	.section {
-		padding: 30px 60px;
-	}
+@media (min-width: 581px) {
+  .section {
+    padding: 30px 60px;
+  }
 }
-
 @media (max-width: 580px) {
-	.section {
-		padding: 30px 30px;
-	}
+  .section {
+    padding: 30px 30px;
+  }
 }
 
 .content {
-	width: 65%;
+  width: 65%;
 }
 
 .section-divider {
-	text-align: center;
+  text-align: center;
 }
-
 .section-divider img {
-	width: 45%;
+  width: 45%;
+}
+@media (max-width: 580px) {
+  .section-divider img {
+    width: 65%;
+  }
 }
 
 #our-wedding {
-	background-image: url("images/toms-town-crop.jpg");
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	padding-top: 60px;
+  background-image: url("images/toms-town-crop.jpg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 60px;
 }
 
 #details-container {
-	/*padding-top: 120px;*/
-	top: 40px;
+  /*padding-top: 120px;*/
+  top: 40px;
+}
+
+.hotel-name {
+  font-size: 18px;
 }
 
 footer {
-	background-image: url("images/footer.jpg");
-	background-size: 100%;
-	bottom: -20px;
-	/*box-sizing: border-box;*/
-	position: relative;
-	height: 120px;
+  background-image: url("images/footer.jpg");
+  background-size: 100%;
+  bottom: -20px;
+  /*box-sizing: border-box;*/
+  position: relative;
+  height: 120px;
 }
 
 footer p {
-	color: white;
-	font-size: 14px;
-	margin: 0px;
-	padding: 85px 15px 15px;
-	text-align: right;
+  color: white;
+  font-size: 14px;
+  margin: 0px;
+  padding: 85px 15px 15px;
+  text-align: right;
 }
 
 #zola-logo {
-	margin-bottom: 20px;
-	max-width: 180px;
+  margin-bottom: 20px;
+  max-width: 180px;
 }

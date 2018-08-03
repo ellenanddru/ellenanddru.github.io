@@ -25,6 +25,9 @@ h4 {
   margin-bottom: 0px;
 }
 @media (max-width: 650px) {
+  h1 {
+    font-size: 60px;
+  }
   h2 {
     font-size: 30px;
   }
@@ -131,18 +134,23 @@ p {
 }
 
 .intro-section {
-  /*background-image: url("images/title-image.jpg");*/
-  background: linear-gradient(to top, #0E0E0E00 40%, #0E0E0E 100%);
-  background-size: 100%;
+  background: url("images/title-image.jpg") no-repeat center, linear-gradient(to top, #0E0E0E00 40%, #0E0E0E 100%);
+  background-size: cover;
   color: white;
   text-align: center;
-  min-height: 650px;
+  position: relative;
+  height: 100vh;
   top: 0;
 }
-.intro-section h3 {
+.title-info {
   display: inline-block;
   text-shadow: -1px 1px black;
-  margin: 15px;
+  margin-top: 15px;
+  /*to align at bottom and center horizontally*/
+  /*position: absolute;*/
+  /*bottom: 40px*/
+  /*width: 250px;*/
+  /*margin-left: -125px;*/
 }
 
 /*@media (min-width: 701px) {
